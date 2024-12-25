@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>广东省天气数据可视化大屏</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/echarts.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="date-display" id="dateDisplay"></div>
+    <div class="dashboard">
+        <h1>广东省天气数据可视化大屏</h1>
+        <div class="chart-container">
+            <div id="tempChart" class="chart"></div>
+        </div>
+        <div class="chart-container">
+            <div id="humidityChart" class="chart"></div>
+        </div>
+        <div class="chart-container center-chart">
+            <div id="mapChart" class="chart"></div>
+        </div>
+        <div class="chart-container">
+            <div id="windChart" class="chart"></div>
+        </div>
+        <div class="chart-container">
+            <div id="weatherChart" class="chart"></div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
